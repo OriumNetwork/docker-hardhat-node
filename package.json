@@ -1,0 +1,23 @@
+{
+  "name": "docker-hardhat-node",
+  "version": "1.0.0",
+  "description": "This project implements a simple hardhat node to run a docker container.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OriumNetwork/docker-hardhat-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OriumNetwork/docker-hardhat-node/issues"
+  },
+  "homepage": "https://github.com/OriumNetwork/docker-hardhat-node#readme",
+  "devDependencies": {
+    "hardhat": "^2.12.4"
+  }
+}
