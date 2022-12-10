@@ -12,3 +12,4 @@ Environment variables are used to configure the hardhat node. Currently, you can
 | FORK_BLOCK_NUMBER | The block number of the network intended to fork. This can be used to fork a network in a specific state |
 | ACCOUNT_PK        | Private key of an ethereum account to unlock and used as a signer                                        |
 | CHAIN_ID          | Chain Id of the network                                                                                  |
+| PORT              | Json Rpc port for Http queries                                                                           |
