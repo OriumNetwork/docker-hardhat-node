@@ -16,6 +16,6 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Build Docker Image
-        run: docker build -t OriumNetwork/hardhat-node:latest .
+        run: docker build -t oriumnetwork/hardhat-node:latest .
       - name: Push Docker Image
         run: docker push OriumNetwork/hardhat-node:latest
