@@ -9,4 +9,4 @@ COPY *.js /home/node/
 
 ENTRYPOINT npx hardhat node --port "${PORT:=8545}"
 
-HEALTHCHECK --interval=5s --timeout=3s CMD node /home/node/healthcheck.js
+#HEALTHCHECK --interval=5s --timeout=3s CMD node /home/node/healthcheck.js
