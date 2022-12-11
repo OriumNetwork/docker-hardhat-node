@@ -13,3 +13,4 @@ Environment variables are used to configure the hardhat node. Currently, you can
 | ACCOUNT_PK        | Private key of an ethereum account to unlock and used as a signer                                        |
 | CHAIN_ID          | Chain Id of the network                                                                                  |
 | PORT              | Json Rpc port for Http queries                                                                           |
+| HOSTNAME          | Hostname of the server                                                                                   |
